@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "fakt";
+    src: url("fakt-bnd.ttf");
+}
+
+body
+{
+    font-family: "fakt", sans-serif;
+    color: #000;
+}
+
+.rotate
+{
+    rotate: -90deg;
+}
+
+.w-header
+{
+    width: 80px;
+}
+
+.w-main
+{
+    width: calc(100vw - 97px);
+}
+
+.e-resize
+{
+    cursor: e-resize !important;
+}
+
+/* Section our practice */
+.our-practice
+{
+    margin-top: 120px;
+}
+
+.div-title
+{
+    font-size: 32px;
+} 
+
+.div-section-1
+{
+    width: 98%;
+}
+
+.fs-text
+{
+    font-size: 64px;
+}
