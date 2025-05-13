@@ -33,12 +33,12 @@ body
 .our-practice
 {
     margin-top: 120px;
-    margin-bottom: 72px;
 }
 
-.div-section-1
+.div-our-practice
 {
     width: 98%;
+    margin-bottom: 72px;
 }
 
 .fs-text
@@ -46,7 +46,7 @@ body
     font-size: 64px;
 }
 
-/* Section 2 */
+/* Section 1 deuxieme ligne */
 .text-quote
 {
     width: 28vw;
@@ -76,13 +76,12 @@ body
     color: rgb(165, 165, 165);
 }
 
-.img-section-2
+.img-collective
 {
     width: 60vw;
 }
 
-/* Section 3 */
-/* Premier texte de section 3 */
+/* Premier texte de section 1 troisieme ligne*/
 .text-1 p
 {
     font-size: 24px;
@@ -91,12 +90,11 @@ body
     margin-bottom: 86px;
 }
 
-/* Section 3 Animation bouton about collective */
+/* Section 1 Animation bouton about collective */
 .button-about:hover
 {
 
     background-color: #000 !important;
-    /* color: white !important; */
     transition: 0.2s ease-in;
 }
 
@@ -117,7 +115,7 @@ body
     font-weight: 600;
 }
 
-/* 2nd texte section 3 */
+/* 2nd texte section 1 deuxieme ligne */
 .text-2 p
 {
     font-size: 24px;
