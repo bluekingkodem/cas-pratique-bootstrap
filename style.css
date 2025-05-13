@@ -33,12 +33,8 @@ body
 .our-practice
 {
     margin-top: 120px;
+    margin-bottom: 72px;
 }
-
-.div-title
-{
-    font-size: 32px;
-} 
 
 .div-section-1
 {
@@ -48,4 +44,83 @@ body
 .fs-text
 {
     font-size: 64px;
+}
+
+/* Section 2 */
+.text-quote
+{
+    width: 28vw;
+    height: 29vh;
+    margin-top: 33%;
+    border-left: 1px solid #ff5caa;
+    line-height: 23px;
+    padding-left: 35px;
+}
+
+.text-quote blockquote
+{
+    font-size: 17px;
+    position: relative;
+}
+
+.text-quote blockquote::before
+{
+    content: "“";
+    position: absolute;
+    left: -8px;
+}
+
+.text-quote span
+{
+    font-size: 16px;
+    color: rgb(165, 165, 165);
+}
+
+.img-section-2
+{
+    width: 60vw;
+}
+
+/* Section 3 */
+/* Premier texte de section 3 */
+.text-1 p
+{
+    font-size: 24px;
+    line-height: 1.333;
+    width: 29.6vw;
+    margin-bottom: 86px;
+}
+
+/* Section 3 Animation bouton about collective */
+.button-about:hover
+{
+
+    background-color: #000 !important;
+    /* color: white !important; */
+    transition: 0.2s ease-in;
+}
+
+.button-about:hover a
+{
+    color: white !important;
+}
+
+.button-about:hover svg path[fill="black"]
+{
+    fill: white;
+}
+/* Fin animation */
+
+.button-about a
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* 2nd texte section 3 */
+.text-2 p
+{
+    font-size: 24px;
+    line-height: 1.333;
+    width: 29.6vw;
 }
