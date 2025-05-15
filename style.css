@@ -60,7 +60,7 @@ body
 .text-quote blockquote
 {
     font-size: 17px;
-    position: relative;
+    /* position: relative; */
 }
 
 .text-quote blockquote::before
@@ -143,4 +143,10 @@ body
 .our-book .text-2 p
 {
     width: 29.9vw;
+}
+
+/* Section video */
+.video
+{
+    margin-top: 140px;
 }
