@@ -150,3 +150,66 @@ body
 {
     margin-top: 140px;
 }
+
+.our-focus-area h1
+{
+    font-size: 32px;
+    margin-bottom: 224px;
+}
+
+.our-focus-area a
+{
+    font-size: 78px;
+    letter-spacing: -2px;
+}
+
+.line-our-focus
+{
+    background-color: #ebe6e2;
+    width: 89vw;
+    margin-top: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 49px;
+}
+
+.rrw
+{
+    line-height: 63px;
+}
+
+.residential svg
+{
+    transition: transform 1s ease-in-out;
+}
+
+.residential:hover svg
+{
+    display: inline-block !important;
+    margin-left: 10px;
+    transform: translateX(-4px);
+}
+
+/* Section select projects */
+.select-projects
+{
+    margin-top: 113px;
+    margin-left: 37px;
+}
+
+.select-projects img
+{
+    width: 89vw !important;
+}
+
+.select-projects h1
+{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.little-text
+{
+    bottom: 0;
+    right: 48px;
+}
