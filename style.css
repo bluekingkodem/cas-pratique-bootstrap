@@ -288,7 +288,7 @@ body
     margin-left: 12px;
 }
 
-/* Section 1 Animation bouton view our journal collective */
+/* Section Animation bouton view our journal collective */
 .button-view-journal:hover
 {
     background-color: #000 !important;
@@ -311,4 +311,63 @@ body
     font-size: 18px;
     font-weight: 600;
     width: 12vw;
+}
+
+/* Section your vision */
+.your-vision
+{
+
+}
+
+.contain-your-vision
+{
+    width: 90vw;
+}
+
+.left-block-vision
+{
+    height: 108vh;
+}
+
+.text1-your-vision
+{
+    font-size: 32px;
+}
+
+.button-your-vision
+{
+    /* width: 13vw; */
+    margin-top: 65px;
+    /* margin-left: 12px; */
+}
+
+/* Section  Animation bouton your vision collective */
+.button-your-vision:hover
+{
+    background-color: white !important;
+    transition: 0.2s ease-in;
+}
+
+.button-your-vision:hover a
+{
+    color: black !important;
+}
+
+.button-your-vision:hover svg path[fill="white"]
+{
+    fill: black;
+}
+/* Fin animation */
+
+.button-your-vision a
+{
+    font-size: 18px;
+    font-weight: 600;
+    width: 8.5vw;
+}
+
+.img-your-vision
+{
+    object-fit: cover;
+    height: 25.5vw;
 }
