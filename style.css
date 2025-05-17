@@ -213,3 +213,57 @@ body
     bottom: 0;
     right: 48px;
 }
+
+/* Section recently */
+.recently
+{
+    margin-top: 250px;
+} 
+
+.title-recently
+{
+    font-size: 48px;
+    margin-left: 41px;
+}
+
+.contain-articles
+{
+    width: 89.5vw;
+}
+.img img
+{
+    width: 28.5vw;
+}
+
+.text-process
+{
+    letter-spacing: 1px;
+    background-color: #ebe6e2;
+}
+
+.text-date
+{
+    color: #a39e9e;
+    font-size: 18px;
+}
+
+.article
+{
+    transition: transform 1s;
+}
+
+.article:hover .img img
+{
+    transform: scale(1.1);
+}
+
+.description-img h3
+{
+    font-size: 24px;
+}
+
+.description-img p
+{
+    font-size: 18px;
+    line-height: 25px;
+}
