@@ -247,14 +247,10 @@ body
     font-size: 18px;
 }
 
-.article
-{
-    transition: transform 1s;
-}
-
 .article:hover .img img
 {
     transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .description-img h3
@@ -266,4 +262,53 @@ body
 {
     font-size: 18px;
     line-height: 25px;
+}
+
+.button-read-more
+{
+    border-bottom: 1px solid #ebe6e2;
+    transition: border-bottom 0.3s;
+}
+
+
+.button-read-more:hover
+{
+    border-bottom: 1px solid #000;
+}
+
+.button-read-more a
+{
+    font-size: 18px;
+}
+
+.button-view-journal
+{
+    width: 15vw;
+    margin-top: 73px;
+    margin-left: 12px;
+}
+
+/* Section 1 Animation bouton view our journal collective */
+.button-view-journal:hover
+{
+    background-color: #000 !important;
+    transition: 0.2s ease-in;
+}
+
+.button-view-journal:hover a
+{
+    color: white !important;
+}
+
+.button-view-journal:hover svg path[fill="black"]
+{
+    fill: white;
+}
+/* Fin animation */
+
+.button-view-journal a
+{
+    font-size: 18px;
+    font-weight: 600;
+    width: 12vw;
 }
