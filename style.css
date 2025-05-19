@@ -151,6 +151,7 @@ body
     margin-top: 140px;
 }
 
+/* Section Our focus area */
 .our-focus-area h1
 {
     font-size: 32px;
@@ -180,7 +181,7 @@ body
 
 .residential svg
 {
-    transition: transform 1s ease-in-out;
+    /* transition: transform 1s ease-in-out; */
 }
 
 .residential:hover svg
@@ -188,6 +189,7 @@ body
     display: inline-block !important;
     margin-left: 10px;
     transform: translateX(-4px);
+    transition: transform 1s ease-in;
 }
 
 /* Section select projects */
@@ -370,4 +372,51 @@ body
 {
     object-fit: cover;
     height: 25.5vw;
+}
+
+/* Section footer */
+.footer
+{
+    background-color: #ebe6e2;
+    padding-top: 96px;
+}
+
+.contain-footer
+{
+margin-bottom: 140px;
+} 
+
+.title-footer, address
+{
+    font-size: 16px;
+}
+
+.social-media a svg
+{
+    width: 20px;
+}
+
+.formulaire
+{
+    width: 29vw;
+}
+
+.formulaire form input
+{
+    background-color: #ebe6e2;
+}
+
+.formulaire form input:focus
+{
+    border: none;
+}
+
+.recaptcha-button button
+{
+    background-color: #ebe6e2;
+}
+
+.copyright
+{
+    font-size: 14px;
 }
