@@ -251,10 +251,15 @@ body
     font-size: 18px;
 }
 
+.article
+{
+    cursor: pointer;
+}
+
 .article:hover .img img
 {
     transform: scale(1.1);
-    transition: transform 0.3s;
+    transition: transform 1.5s cubic-bezier(.19,1,.22,1);
 }
 
 .article:hover .img .process
@@ -301,6 +306,7 @@ body
     width: 15vw;
     margin-top: 73px;
     margin-left: 12px;
+    cursor: pointer;
 }
 
 /* Section Animation bouton view our journal collective */
@@ -347,9 +353,8 @@ body
 
 .button-your-vision
 {
-    /* width: 13vw; */
     margin-top: 65px;
-    /* margin-left: 12px; */
+    cursor: pointer;
 }
 
 /* Section  Animation bouton your vision collective */
@@ -395,6 +400,11 @@ body
 margin-bottom: 140px;
 } 
 
+.contact-footer a
+{
+    cursor: pointer;
+}
+
 .title-footer, address
 {
     font-size: 16px;
@@ -403,6 +413,11 @@ margin-bottom: 140px;
 .social-media a svg
 {
     width: 20px;
+}
+
+.social-media a
+{
+    cursor: pointer;
 }
 
 .formulaire
@@ -423,6 +438,11 @@ margin-bottom: 140px;
 .recaptcha-button button
 {
     background-color: #ebe6e2;
+}
+
+.recaptcha-button button
+{
+    cursor: pointer;
 }
 
 .copyright
