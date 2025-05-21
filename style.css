@@ -191,12 +191,12 @@ body
 .select-projects
 {
     margin-top: 113px;
-    margin-left: 37px;
+    padding-left: 35px;
 }
 
 .select-projects img
 {
-    width: 89vw !important;
+    /* width: 89vw !important; */
 }
 
 .select-projects h1
@@ -208,8 +208,30 @@ body
 .little-text
 {
     bottom: 0;
-    right: 48px;
+    right: 282px;
 }
+
+.img-project
+{
+    width: 81%;
+    height: 100%;
+}
+
+.img-project img
+{
+    width: 100%;
+    left: -45px;
+}
+
+.img-next
+{
+    bottom: 0px;
+    right: -765px;
+    height: 100%;
+    width: 75%;
+    z-index: -1;
+    opacity: 0.4;
+} 
 
 /* Section recently */
 .recently
