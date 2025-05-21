@@ -212,7 +212,34 @@
 
     <!-- Section select projects -->
     <section class="select-projects w-main">
-        <h1 class="fw-bold">Select Projects</h1>
+        <div class="d-flex justify-content-between pe-5">
+            <h1 class="fw-bold">Select Projects</h1>
+            <div class="button-slide border border-1 rounded-5 d-flex justify-content-around position-relative">
+                <button class="button-left carousel-control-prev opacity-100" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon pe-5" aria-hidden="true">
+                        <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.555 7.26563L0 7.26562L0 5.76562L18.555 5.76563V7.26563Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9391 6.4999L13.0136 1.57433L14.0742 0.513672L20.0604 6.4999L14.0742 12.4861L13.0136 11.4255L17.9391 6.4999Z" fill="black"></path>
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <div class="pt-2">
+                    <span class="number-prev fw-bold">1</span>
+                    <span class="slash fw-semibold">/</span>
+                    <span class="number-next fw-bold">5</span>
+                </div>
+                <button class="button-right carousel-control-next opacity-100" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon pe-5" aria-hidden="true">
+                        <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.555 7.26563L0 7.26562L0 5.76562L18.555 5.76563V7.26563Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9391 6.4999L13.0136 1.57433L14.0742 0.513672L20.0604 6.4999L14.0742 12.4861L13.0136 11.4255L17.9391 6.4999Z" fill="black"></path>
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner d-flex">
                 <div class="carousel-item active position-relative overflow-hidden">
@@ -268,16 +295,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="button-slide">
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>

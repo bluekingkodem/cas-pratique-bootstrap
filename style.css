@@ -194,11 +194,6 @@ body
     padding-left: 35px;
 }
 
-.select-projects img
-{
-    /* width: 89vw !important; */
-}
-
 .select-projects h1
 {
     font-size: 48px;
@@ -232,6 +227,27 @@ body
     z-index: -1;
     opacity: 0.4;
 } 
+
+.button-slide
+{
+    /* top: -52px;
+    left: 1236px; */
+    width: 8.5vw;
+    height: 9.9vh;
+}
+
+.button-left
+{
+    rotate: -180deg;
+    width: 31px;
+    height: 37px;
+}
+
+.button-right
+{
+    width: 31px;
+    height: 43px;
+}
 
 /* Section recently */
 .recently
