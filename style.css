@@ -191,13 +191,18 @@ body
 .select-projects
 {
     margin-top: 113px;
-    padding-left: 35px;
+    /* padding-left: 35px; */
 }
 
 .select-projects h1
 {
     font-size: 48px;
     margin-bottom: 60px;
+}
+
+.first-img-projects
+{
+    right: -21px;
 }
 
 .little-text
@@ -208,7 +213,7 @@ body
 
 .img-project
 {
-    width: 81%;
+    width: 80%;
     height: 100%;
 }
 
@@ -221,12 +226,47 @@ body
 .img-next
 {
     bottom: 0px;
-    right: -765px;
+    right: -770px;
     height: 100%;
     width: 75%;
     z-index: -1;
     opacity: 0.4;
 } 
+
+.img-project-other
+{
+    width: 80%;
+    height: 100%;
+}
+.img-project-other img
+{
+    width: 100%;
+}
+
+.img-project-other .img-prev
+{
+    left: -1431px;
+}
+
+.img-main
+{
+    left: 26px;
+}
+
+.img-next-other
+{
+    bottom: 0px;
+    right: -796px;
+    height: 100%;
+    width: 74%;
+    z-index: -1;
+    opacity: 0.4;
+} 
+
+/* .img-prev
+{
+    left: -1411px;
+} */
 
 .button-slide
 {
