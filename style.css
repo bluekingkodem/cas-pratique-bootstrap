@@ -155,7 +155,6 @@ body
 .our-focus-area h1
 {
     font-size: 32px;
-    margin-bottom: 224px;
 }
 
 .our-focus-area a
@@ -191,7 +190,6 @@ body
 .select-projects
 {
     margin-top: 113px;
-    /* padding-left: 35px; */
 }
 
 .select-projects h1
@@ -263,17 +261,10 @@ body
     opacity: 0.4;
 } 
 
-/* .img-prev
-{
-    left: -1411px;
-} */
-
 .button-slide
 {
-    /* top: -52px;
-    left: 1236px; */
     width: 8.5vw;
-    height: 9.9vh;
+    height: 5.9vh;
 }
 
 .button-left
@@ -419,14 +410,16 @@ body
     width: 90vw;
 }
 
-.left-block-vision
-{
-    height: 108vh;
-}
-
 .text1-your-vision
 {
     font-size: 32px;
+    margin-bottom: 183px;
+}
+
+.img-your-vision
+{
+    height: 95vh;
+    object-fit: cover;
 }
 
 .button-your-vision
@@ -458,12 +451,6 @@ body
     font-size: 18px;
     font-weight: 600;
     width: 8.5vw;
-}
-
-.img-your-vision
-{
-    object-fit: cover;
-    height: 25.5vw;
 }
 
 /* Section footer */
